@@ -3,14 +3,12 @@ import React, { useState } from 'react';
 const WeatherApp = () => {
   const [city, setCity] = useState('');
   const [weather, setWeather] = useState(null);
-  const [error, setError] = useState(null);
 
   const API_KEY = 'your_openweathermap_api_key';
 
   const fetchWeather = async () => {
     if (!city) return;
 
-    setError(null);
     setWeather(null);
 
     const geoResponse = await fetch(
