@@ -2,8 +2,9 @@
 
 ## Prerequisites
 
+- **Git**: Ensure you have Git installed and your GitHub credentials configured correctly.
+- **Code Editor**: Have your favorite code editor downloaded and ready for use.
 - **Node.js and npm**: Ensure you have Node.js and npm installed.
-- **OpenWeatherMap API Key**: Provided to you during the interview.
 
 ## Installation
 
